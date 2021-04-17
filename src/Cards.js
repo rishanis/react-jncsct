@@ -3,8 +3,9 @@ import React from 'react';
 const Cards = (props) => {
   return (
     <div style={{backgroundColor: 'teal'}}>
-      Home
       <img alt='picture' />
+      <h3>{ props.name }</h3>
+      <p>{ props.email }</p>  
     </div>
   );
 }
