@@ -4,7 +4,7 @@ const Cards = (props) => {
   return (
     <div style={{backgroundColor: 'teal'}}>
       Home
-      <img src={`${link}`} />
+      <img alt='picture' />
     </div>
   );
 }
