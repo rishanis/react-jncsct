@@ -5,6 +5,9 @@ import { robots } from './robots';
 
 ReactDOM.render(
   <div>
-    <Cards name={robots[0].name}/>
+    { robots.map((robot) => {
+      console.log(robot)
+      
+    })}
   </div>,
   document.getElementById("root"));

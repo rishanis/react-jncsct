@@ -1,11 +1,12 @@
 import React from 'react';
 
 const Cards = (props) => {
+  console.log(props);
   return (
-    <div style={{backgroundColor: 'teal'}}>
+    <div style={{backgroundColor: 'lightgrey'}}>
       <img alt='picture' src={`https://robohash.org/${ props.id }`}/>
       <h3>{ props.name }</h3>
-      <p>{ props.email }</p>  
+      <p>{ props.birthYear }</p>  
     </div>
   );
 }
