@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Cards = (props) => {
-  console.log(props);
+  //console.log(props);
   return (
     <div style={{backgroundColor: 'lightgrey'}}>
       <img alt='picture' src={`https://robohash.org/${ props.id }`}/>

@@ -5,9 +5,13 @@ import { robots } from './robots';
 
 ReactDOM.render(
   <div>
-    { robots.map((robot) => {
-      console.log(robot)
-      
-    })}
+    {
+      robots.map((robot, index) => {
+        return (
+          <Cards name={robot.name}/>
+        )
+      })
+    }
+    
   </div>,
   document.getElementById("root"));
