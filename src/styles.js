@@ -11,7 +11,7 @@ export const cardStyle =
 export const titleStyle =
 {
   alignContent: 'center',
-  fontWeight: 300,
+  fontWeight: 600,
   fontSize: 50,
   textAlign: 'center',
   color: 'red'
@@ -23,4 +23,12 @@ export const buttonStyle =
   height: 40,
   fontSize: 20,
   color: 'green'
+}
+export const pStyle =
+{
+  alignContent: 'center',
+  fontWeight: 200,
+  fontSize: 30,
+  textAlign: 'center',
+  color: 'grey'
 }
